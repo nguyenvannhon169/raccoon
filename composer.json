@@ -1,5 +1,5 @@
 {
-  "name": "raccoon/debug-package",
+  "name": "raccoon-debug",
   "description": "Is a package to support debugging and logging",
   "authors": [
     {
