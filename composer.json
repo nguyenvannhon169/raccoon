@@ -1,18 +1,24 @@
 {
-  "name": "raccoon/debug-package",
+  "name": "nguyenvannhon169/raccoon-debug",
   "description": "Is a package to support debugging and logging",
+  "type": "library",
+  "license": "MIT",
   "authors": [
     {
       "name": "Nguyen Van Nhon",
       "email": "nhonnguyenvan169@gmail.com"
     }
   ],
+  "minimum-stability": "dev",
+  "require": {},
   "autoload": {
     "psr-4": {
       "Raccoon\\Utils\\": "src/"
     }
   },
-  "require": {
-    "ext-json": "*"
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.1.x-dev"
+    }
   }
 }
